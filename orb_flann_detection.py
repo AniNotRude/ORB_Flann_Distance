@@ -57,7 +57,7 @@ while vid1.isOpened():
 
         
 
-    cv2.imshow("Naam hai ye",final)
+    cv2.imshow("Window",final)
 
     if cv2.waitKey(1) & 0xFF ==ord("q"):
         break
